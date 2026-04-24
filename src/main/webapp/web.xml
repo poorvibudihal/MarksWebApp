@@ -1,0 +1,24 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>AddMarkServlet</servlet-name>
+        <servlet-class>com.servlet.AddMarkServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddMarkServlet</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewMarkServlet</servlet-name>
+        <servlet-class>com.servlet.ViewMarkServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewMarkServlet</servlet-name>
+        <url-pattern>/view</url-pattern>
+    </servlet-mapping>
+
+</web-app>
